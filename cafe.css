@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Dancing+Script:wght@400;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  display: block;
+}
+h2{
+  font-family: 'Berkshire Swash', cursive;
+  font-weight: 400;
+  line-height: 3rem;
+}
+strong{
+  font-weight: 700;
+}
+hr{
+  height: 3px;
+  margin-top: 0;
+  width: 18%;
+  background-color: #732C02;
+}
+td{
+  background-color: #F29D35;
+  display: table-cell;
+  vertical-align: inherit;
+}
+th{
+  background-color: #591902;
+  color: white;
+}
+table{
+  margin-top: 1%;
+}
+main{
+  margin-left: 1%;
+  width: 98%;
+}
+#container{
+  background-color: white;
+}
+#img-header{
+  background-image: url('./cofee.jpg');
+  width: 100%;
+  height: 500px;
+  position: relative;
+  
+}
+#table-footer{
+  border-collapse: collapse;
+  font-family: 'Dancing Script', cursive;
+}
+
+#table-footer td, #table-footer th{
+  border: 1px solid rgb(255, 255, 255);
+  padding: 8px;
+}
+.colun{
+  width: 8%;
+  text-align: center;
+}
+.content-post{
+  overflow: auto;
+  margin-top: 1%;
+  display: inline-block;
+}
+.text-post p{
+  display: inline-block;
+  margin-left: 2%;
+  margin-top: 2%;
+  height: 10%;
+  width: 77%;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-style: italic;
+}
+.img-post{
+  float:left;
+  width: 200px;
+  border-radius: 5px;
+  box-shadow: 2px 1px 2px rgb(0, 0, 0);
+}
+
+.colun th{
+  text-decoration: black;
+  text-decoration-style: solid;
+  font-size: 20px;
+}
+#title-header{
+  width: 29%;
+  height: 17%;
+  background-color: #BF571B99;
+  text-align: left;
+  text-align: center;
+  position: absolute;
+  margin-top: 20%;
+  text-align: center;
+  color: white;
+  font-family: 'Berkshire Swash', cursive;
+}
+
+#copy{
+  padding: 5px;
+  text-align: justify;
+  margin-left: 3%;
+}
